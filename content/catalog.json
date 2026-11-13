@@ -1,0 +1,838 @@
+{
+  "total": 71,
+  "categories": [
+    {
+      "name": "环境监测装备",
+      "track": "环境监测",
+      "count": 12
+    },
+    {
+      "name": "助老助残装备",
+      "track": "助老助残",
+      "count": 9
+    },
+    {
+      "name": "机器人平台",
+      "track": "机器人",
+      "count": 9
+    },
+    {
+      "name": "农业机器人",
+      "track": "农业",
+      "count": 8
+    },
+    {
+      "name": "消防应急装备",
+      "track": "消防应急",
+      "count": 7
+    },
+    {
+      "name": "教育教具",
+      "track": "教育",
+      "count": 7
+    },
+    {
+      "name": "智慧交通",
+      "track": "交通",
+      "count": 5
+    },
+    {
+      "name": "生活消费",
+      "track": "生活/消费",
+      "count": 5
+    },
+    {
+      "name": "结构件/样机",
+      "track": "结构件/Demo",
+      "count": 5
+    },
+    {
+      "name": "文化创意",
+      "track": "文化创意",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "id": "bathwheelchair",
+      "title": "助老洗澡轮椅",
+      "category": "助老助残装备",
+      "track": "助老助残",
+      "tagline": "电动平躺 + 6 光轴浴花自洗 + 环形喷淋，老人自助洗澡",
+      "stack": "单片机 · 电动推杆 · 链条齿轮 · 水泵",
+      "status": "●",
+      "year": "2026",
+      "scale": "305 文件 · 240MB · CAD63"
+    },
+    {
+      "id": "ivhelper",
+      "title": "智能输液小帮手",
+      "category": "助老助残装备",
+      "track": "助老助残",
+      "tagline": "自动插针 + 余量监测 + 语音暖手三合一，替代护士巡房",
+      "stack": "Arduino · 余量检测 · 暖手模块 · 语音",
+      "status": "◐",
+      "year": "2025",
+      "scale": "92 文件 · 53MB · CAD19"
+    },
+    {
+      "id": "blindvest",
+      "title": "盲人出行智能马甲",
+      "category": "助老助残装备",
+      "track": "助老助残",
+      "tagline": "马甲多向探测中高位障碍与台阶，补盲杖只探地面的短板",
+      "stack": "ESP32 · CameraWebServer · K210",
+      "status": "◐",
+      "year": "2026",
+      "scale": "3062 文件 · 613MB"
+    },
+    {
+      "id": "eegglasses",
+      "title": "脑电安抚眼镜（关爱眼镜）",
+      "category": "助老助残装备",
+      "track": "助老助残",
+      "tagline": "TGAM 脑电判焦虑 → 安抚语音 + 箭头指路 + 4G 推家属",
+      "stack": "ESP32-S3 · TGAM 脑电 · ML307C 4G · GPS · OLED",
+      "status": "●",
+      "year": "2026",
+      "scale": "567 文件 · 1.68GB · 源码120"
+    },
+    {
+      "id": "rehabexo",
+      "title": "康复外骨骼上肢",
+      "category": "助老助残装备",
+      "track": "助老助残",
+      "tagline": "ESP32-C3 驱动腕臂循环康复，网页调参 + 三段自检",
+      "stack": "ESP32-C3 · 舵机 LEDC · 步进 · WiFi WebServer",
+      "status": "○",
+      "year": "2026",
+      "scale": "56 文件 · 12MB · CAD53"
+    },
+    {
+      "id": "dryingrack",
+      "title": "智能节能烘干衣架",
+      "category": "助老助残装备",
+      "track": "助老助残",
+      "tagline": "湿度感知判干 + 自动升降风干防过烘，复用外骨骼框架",
+      "stack": "ESP32-C3 · 湿度传感 · WiFi WebServer",
+      "status": "○",
+      "year": "2026",
+      "scale": "12 文件 · 8.9MB · CAD10"
+    },
+    {
+      "id": "smartcane",
+      "title": "智能盲杖",
+      "category": "助老助残装备",
+      "track": "助老助残",
+      "tagline": "多传感避障导盲杖，7 件套申报包 + 视频双版本",
+      "stack": "多传感避障 · 7 件套申报包 · 视频交付",
+      "status": "●",
+      "year": "2025",
+      "scale": ""
+    },
+    {
+      "id": "fallalarm",
+      "title": "老人防跌倒求救",
+      "category": "助老助残装备",
+      "track": "助老助残",
+      "tagline": "跌倒检测 + 自动求救，视频版与 7 件套申报版双交付",
+      "stack": "跌倒检测 · 自动求救 · 双版本交付",
+      "status": "●",
+      "year": "2025",
+      "scale": ""
+    },
+    {
+      "id": "medtransport",
+      "title": "AI 医院药品运输",
+      "category": "助老助残装备",
+      "track": "助老助残",
+      "tagline": "滑轨丝杠自动转运药品，替代人工推车（日均约 200 次）",
+      "stack": "ESP32-S3 · L298N · 520 编码电机 · 丝杠滑轨",
+      "status": "●",
+      "year": "2026",
+      "scale": "226 文件 · 724MB · CAD55"
+    },
+    {
+      "id": "lingtong",
+      "title": "灵瞳 AI 水域智能监测与救援平台",
+      "category": "消防应急装备",
+      "track": "消防应急",
+      "tagline": "摄像头 AI 发现溺水 → 算落点 → 自动抛投救生圈闭环",
+      "stack": "AI 视觉 · 单/双体船 · 发射仓 · 风速风向 · PS2",
+      "status": "●",
+      "year": "2026",
+      "scale": "448 文件 · 1.88GB"
+    },
+    {
+      "id": "swimring",
+      "title": "游泳圈水面巡航救援",
+      "category": "消防应急装备",
+      "track": "消防应急",
+      "tagline": "游泳圈当浮体做遥控救援器，K210 视觉找人，成本远低于救援艇",
+      "stack": "Arduino Nano · L298N · K210 · 超声波",
+      "status": "●",
+      "year": "2026",
+      "scale": "211 文件 · 1.11GB · 源码97"
+    },
+    {
+      "id": "feijiuyi",
+      "title": "飞救衣（救生衣一体化侦察无人机）",
+      "category": "消防应急装备",
+      "track": "消防应急",
+      "tagline": "救生衣背板一拉展开四机臂，到场即飞省 3~4 分钟",
+      "stack": "四旋翼 · 折叠机臂 · 救生衣背板",
+      "status": "●",
+      "year": "2026",
+      "scale": "204 文件 · 887MB · 实拍179 张"
+    },
+    {
+      "id": "firepath",
+      "title": "火灾逃生路径指示装置",
+      "category": "消防应急装备",
+      "track": "消防应急",
+      "tagline": "18 颗灯带按火情改向，跨楼层统一疏散：绿走黄快过红封锁",
+      "stack": "ESP32-S3 · DS18B20 · MQ-2 · FastLED",
+      "status": "●",
+      "year": "2026",
+      "scale": "169 文件 · 545MB · 源码19"
+    },
+    {
+      "id": "kitchenfire",
+      "title": "厨房油锅起火自动灭火",
+      "category": "消防应急装备",
+      "track": "消防应急",
+      "tagline": "视觉 + 热成像双模识别火焰，横移收纳 + 灭火毯覆盖 + 切燃气",
+      "stack": "树莓派 4B · 视觉火焰识别 · TG-300B 推杆",
+      "status": "○",
+      "year": "2026",
+      "scale": "33 文件 · 4.9MB · CAD29"
+    },
+    {
+      "id": "softrescue",
+      "title": "柔性双线水上救援装置",
+      "category": "消防应急装备",
+      "track": "消防应急",
+      "tagline": "双线柔性驱动 + 软体机械臂抓握，成本远低于 5 万元设备",
+      "stack": "Arduino UNO · PS2X · 双推进器 · 270° 舵机",
+      "status": "●",
+      "year": "2026",
+      "scale": "91 文件 · 227MB · CAD41"
+    },
+    {
+      "id": "floodguard",
+      "title": "汽车防淹（地埋充气围挡）",
+      "category": "消防应急装备",
+      "track": "消防应急",
+      "tagline": "车位下埋充气围挡，浸水电压过 2.1V 自动升起",
+      "stack": "ESP32-C3 · 浸水电压传感 · 继电器 · 气泵",
+      "status": "●",
+      "year": "2026",
+      "scale": "97 文件 · 821MB · 源码10"
+    },
+    {
+      "id": "greenhouse",
+      "title": "大棚自适应病虫害识别治理小车",
+      "category": "农业机器人",
+      "track": "农业",
+      "tagline": "4 推杆双自适应调宽调高，K210 病害二分类后定向喷药",
+      "stack": "ESP32-S3 · 麦克纳姆轮 · K210 · 云台 · PS2",
+      "status": "●",
+      "year": "2026",
+      "scale": "13.9 万文件 · 1.49GB · 84k 训练图"
+    },
+    {
+      "id": "soilph",
+      "title": "大棚土壤 pH 检测调节",
+      "category": "农业机器人",
+      "track": "农业",
+      "tagline": "探头逐点测 pH 并按需撒调节剂，替代凭经验撒酸碱",
+      "stack": "ESP32-S3 · pH 探头 · 调节剂撒施",
+      "status": "◐",
+      "year": "2026",
+      "scale": "118 文件 · 737MB · CAD23"
+    },
+    {
+      "id": "irrigationcart",
+      "title": "土壤湿度自适应灌溉移动小车",
+      "category": "农业机器人",
+      "track": "农业",
+      "tagline": "K230 分类 + 麦轮按湿度自主行走灌溉，工程化最高",
+      "stack": "ESP32-S3 · K230 · 麦克纳姆轮 · PS2",
+      "status": "◐",
+      "year": "2026",
+      "scale": "1968 文件 · 396MB · 源码217"
+    },
+    {
+      "id": "fermenter",
+      "title": "厨余发酵制肥桶",
+      "category": "农业机器人",
+      "track": "农业",
+      "tagline": "温湿度 + 有害气体联动投料翻堆，好氧发酵不臭周期短",
+      "stack": "Arduino Nano · DHT11 · KQM2800 · 舵机",
+      "status": "●",
+      "year": "2026",
+      "scale": "126 文件 · 369MB · CAD29"
+    },
+    {
+      "id": "soilloosen",
+      "title": "惯性阻力土壤松土装置",
+      "category": "农业机器人",
+      "track": "农业",
+      "tagline": "HX711 测松土阻力 + 麦轮自走 + 网页控制，深度变可测参数",
+      "stack": "ESP32 · 麦克纳姆 · HX711 · WiFi AP",
+      "status": "○",
+      "year": "2026",
+      "scale": "47 文件 · 1.7MB"
+    },
+    {
+      "id": "herbgrowtower",
+      "title": "家庭香草种植塔",
+      "category": "农业机器人",
+      "track": "农业",
+      "tagline": "600×300 三层香草种植塔结构件，4 件型材 CAD",
+      "stack": "SolidWorks · 铝型材 · 600×300 三层",
+      "status": "○",
+      "year": "2026",
+      "scale": "4 文件 · 0.3MB"
+    },
+    {
+      "id": "aquaponics",
+      "title": "鱼菜共生装置（结构）",
+      "category": "农业机器人",
+      "track": "农业",
+      "tagline": "鱼菜共生装配体结构件建模，11 件 STL/SLDPRT",
+      "stack": "SolidWorks · STL · SLDPRT",
+      "status": "○",
+      "year": "2026",
+      "scale": "11 文件 · 0.3MB"
+    },
+    {
+      "id": "farmtoolshare",
+      "title": "共享农具借还系统",
+      "category": "农业机器人",
+      "track": "农业",
+      "tagline": "柜体 ESP32 + 小程序 + TS 后端，农机具借还订单闭环",
+      "stack": "ESP32 · 微信小程序 · Node/TS · 数据库",
+      "status": "◐",
+      "year": "2026",
+      "scale": "199 文件 · 214MB"
+    },
+    {
+      "id": "tileknock",
+      "title": "瓷砖空鼓敲击检测车",
+      "category": "环境监测装备",
+      "track": "环境监测",
+      "tagline": "负压吸附爬墙 + 双 SG90 敲击 + 双声音传感判空鼓",
+      "stack": "ESP32 · SG90 敲击 · 声音传感 · 负压吸附",
+      "status": "●",
+      "year": "2026",
+      "scale": "96 文件 · 444MB · CAD14"
+    },
+    {
+      "id": "tenghu",
+      "title": "轮船藤壶一体化清理装置",
+      "category": "环境监测装备",
+      "track": "环境监测",
+      "tagline": "磁吸履带贴曲面行走，自适应铲剥离 + 清屑 + 喷防护漆闭环",
+      "stack": "ESP32-S3 · 磁吸履带 · 电动推杆 · 水泵 · CAD258",
+      "status": "●",
+      "year": "2026",
+      "scale": "345 文件 · 1.86GB · CAD258"
+    },
+    {
+      "id": "trashbin",
+      "title": "基于气体采样与视觉识别的智能分类垃圾桶",
+      "category": "环境监测装备",
+      "track": "环境监测",
+      "tagline": "气体采样 + HuskyLens 视觉双判干湿，双仓密封 + 太阳能",
+      "stack": "Arduino Nano · HuskyLens · KQM2 · 太阳能",
+      "status": "●",
+      "year": "2026",
+      "scale": "161 文件 · 126MB · CAD67"
+    },
+    {
+      "id": "dustcar",
+      "title": "扬尘降尘小车",
+      "category": "环境监测装备",
+      "track": "环境监测",
+      "tagline": "扩散预测调度 + 4 车接力 + 自主补水，沙盘演示降尘闭环",
+      "stack": "ESP32-WROOM · PS2 · 麦轮底盘 · MKS 步进",
+      "status": "◐",
+      "year": "2026",
+      "scale": "101 文件 · 7.7MB · 源码61"
+    },
+    {
+      "id": "puddlecar",
+      "title": "雨后积水识别处理智能小车",
+      "category": "环境监测装备",
+      "track": "环境监测",
+      "tagline": "YOLO + K210 识别积水，抽吸清理 + 雨水回用",
+      "stack": "YOLO · K210 · 6 轴机械臂",
+      "status": "●",
+      "year": "2025",
+      "scale": "2588 文件 · 105MB · CAD74"
+    },
+    {
+      "id": "amphibclean",
+      "title": "水空两栖水域垃圾清理无人机",
+      "category": "环境监测装备",
+      "track": "环境监测",
+      "tagline": "水里当船、空中当机：空中巡查定位 + 水面收集垃圾",
+      "stack": "Arduino · SBUS · Servo PWM · 3D 打印",
+      "status": "●",
+      "year": "2025",
+      "scale": "168 文件 · 257MB · CAD27"
+    },
+    {
+      "id": "waterlitter",
+      "title": "水上捡垃圾机器人（PS2 遥控）",
+      "category": "环境监测装备",
+      "track": "环境监测",
+      "tagline": "PS2 遥控双电机正反转收垃圾，附 2 课时教学包",
+      "stack": "Arduino Nano · PS2 · L298N · 2 课时教学包",
+      "status": "○",
+      "year": "2026",
+      "scale": "11 文件 · 0.6MB"
+    },
+    {
+      "id": "petfeeder",
+      "title": "流浪猫狗识别放饭装置",
+      "category": "环境监测装备",
+      "track": "环境监测",
+      "tagline": "K230 识别猫狗身份按个体分粮，PC 建库 + Web 界面",
+      "stack": "K230 · ESP32-S3 · PC 服务 · Web 界面",
+      "status": "◐",
+      "year": "2026",
+      "scale": "106 文件 · 4.3MB · 源码35"
+    },
+    {
+      "id": "treegenerator",
+      "title": "树木竹子风致晃动冲程线性发电机",
+      "category": "环境监测装备",
+      "track": "环境监测",
+      "tagline": "树竹风摆转冲程直线发电，给林区监测设备供电",
+      "stack": "磁铁阵列 · 铜线圈 · 1:4 齿轮 · 整流桥",
+      "status": "◐",
+      "year": "2026",
+      "scale": "114 文件 · 516MB · CAD71"
+    },
+    {
+      "id": "evsolar",
+      "title": "电动车太阳能充电装置",
+      "category": "环境监测装备",
+      "track": "环境监测",
+      "tagline": "电动车加装太阳能充电结构，19 件 CAD（无电气）",
+      "stack": "SolidWorks · 19 件 CAD · 结构建模",
+      "status": "○",
+      "year": "2025",
+      "scale": "19 文件 · 1.6MB · CAD19"
+    },
+    {
+      "id": "solarpanelclean",
+      "title": "高速公路太阳能板清洗装置",
+      "category": "环境监测装备",
+      "track": "环境监测",
+      "tagline": "42 步进 + 丝杠滑台定时往返清洗光伏板，400 脉冲/圈",
+      "stack": "42 步进 · L298N 半步 · 丝杠滑台 · 限位",
+      "status": "○",
+      "year": "2026",
+      "scale": "11 文件 · 1.1MB"
+    },
+    {
+      "id": "cigarettopicker",
+      "title": "智能捡烟头车（视觉识别）",
+      "category": "环境监测装备",
+      "track": "环境监测",
+      "tagline": "视觉识别烟头 + 云台对准 + 机械抓取回收",
+      "stack": "Arduino · HuskyLens · PS2X · 双舵机云台",
+      "status": "●",
+      "year": "2025",
+      "scale": "91 文件 · 120MB"
+    },
+    {
+      "id": "cleantray",
+      "title": "小学食堂智能称重式光盘检测装置",
+      "category": "教育教具",
+      "track": "教育",
+      "tagline": "HX711 称重判光盘，达标舵机倒残汤、推盘回收，语音提醒重称",
+      "stack": "HX711 · OLED · 语音模块 · 4 舵机",
+      "status": "●",
+      "year": "2026",
+      "scale": "177 文件 · 1.06GB · CAD35"
+    },
+    {
+      "id": "blackboarderaser",
+      "title": "智能黑板擦",
+      "category": "教育教具",
+      "track": "教育",
+      "tagline": "真空吸附 + 视觉识别自动擦黑板，小学五年级科学",
+      "stack": "真空泵 · 摄像头 · ESP32 · Python",
+      "status": "●",
+      "year": "2025",
+      "scale": "214 文件 · 91MB"
+    },
+    {
+      "id": "aipiggybank",
+      "title": "AI 存钱罐",
+      "category": "教育教具",
+      "track": "教育",
+      "tagline": "图像识别纸币面额记账 + 语音理财陪伴，存钱变复利游戏",
+      "stack": "微信小程序 · MQTT · TCS34725 · py-xiaozhi",
+      "status": "●",
+      "year": "2025",
+      "scale": "660 文件 · 694MB · 源码83"
+    },
+    {
+      "id": "musicscroll",
+      "title": "自动翻页乐谱架",
+      "category": "教育教具",
+      "track": "教育",
+      "tagline": "麦克风听演奏做乐谱跟随，按拍位自动翻页 + RGB 提示",
+      "stack": "ESP32 · 舵机 · Python 乐谱跟随 · 双固件",
+      "status": "○",
+      "year": "2026",
+      "scale": "123 文件 · 36MB · CAD26 · 源码44"
+    },
+    {
+      "id": "bikewheels",
+      "title": "自行车辅助轮（智能平衡）",
+      "category": "教育教具",
+      "track": "教育",
+      "tagline": "MPU6050 姿态解算 + 互补滤波，按倾角伸缩辅助轮",
+      "stack": "Arduino Nano · MPU6050 · 双舵机",
+      "status": "○",
+      "year": "2026",
+      "scale": "3 文件 · 0.5MB"
+    },
+    {
+      "id": "emlauncher",
+      "title": "电磁弹射装置",
+      "category": "教育教具",
+      "track": "教育",
+      "tagline": "电磁弹射原理教具方案，单文档未落模型与代码",
+      "stack": "文档级 · 电磁弹射原理 · 教具方案",
+      "status": "△",
+      "year": "2025",
+      "scale": "13KB"
+    },
+    {
+      "id": "boardadsorb",
+      "title": "黑板吸附擦除机器",
+      "category": "教育教具",
+      "track": "教育",
+      "tagline": "黑板吸附擦除结构设想，单文档创意级",
+      "stack": "文档级 · 黑板吸附擦除 · 创意",
+      "status": "△",
+      "year": "2025",
+      "scale": "12KB"
+    },
+    {
+      "id": "smartcrosswalk",
+      "title": "智能提醒人行道（智能斑马线）",
+      "category": "智慧交通",
+      "track": "交通",
+      "tagline": "暗光发光边界 + 红外闯线识别 + 阻挡杆灯带 + 语音提示",
+      "stack": "ESP32-S3 · 人体红外 · 语音 · 舵机阻挡杆 · 12V 锂电",
+      "status": "◐",
+      "year": "2026",
+      "scale": "65 文件 · 648MB"
+    },
+    {
+      "id": "bikecopter",
+      "title": "无人机-自行车双形态可变形装置",
+      "category": "智慧交通",
+      "track": "交通",
+      "tagline": "同车体在骑行态与四旋翼态变形，堵车积水路段可飞",
+      "stack": "飞控 · 折叠舵机 · 齿轮传动 · 174 件 CAD",
+      "status": "◐",
+      "year": "2026",
+      "scale": "252 文件 · 610MB · CAD174"
+    },
+    {
+      "id": "potholecar",
+      "title": "小区智能坑洞修复小车",
+      "category": "智慧交通",
+      "track": "交通",
+      "tagline": "摄像头找坑洞 → 丝杠定位 → 钻头清理 → 蠕动泵灌水泥",
+      "stack": "摄像头 · 丝杠滑轨 · 蠕动泵 · PS2 · ESP32",
+      "status": "◐",
+      "year": "2026",
+      "scale": "210 文件 · 838MB · CAD112"
+    },
+    {
+      "id": "zishuiting",
+      "title": "智能自水降温候车亭",
+      "category": "智慧交通",
+      "track": "交通",
+      "tagline": "凹槽顶棚滞水缓流 + 水泵循环蒸发降温，1℃ 回差防抖",
+      "stack": "ESP32-S3 · DHT11 · 水泵 · 网络校时 · 铝型材",
+      "status": "●",
+      "year": "2026",
+      "scale": "160 文件 · 630MB · CAD23"
+    },
+    {
+      "id": "doorcrash",
+      "title": "汽车防\"开门杀\"装置",
+      "category": "智慧交通",
+      "track": "交通",
+      "tagline": "后向行车骑行双提示，下车前阻断式预警，全库模板母本",
+      "stack": "盲区监测 · 后向雷达 · 视觉提示",
+      "status": "●",
+      "year": "2026",
+      "scale": "305 文件 · 92MB · CAD21"
+    },
+    {
+      "id": "armexo",
+      "title": "六轴机械臂腰带装置（ArmSync）",
+      "category": "机器人平台",
+      "track": "机器人",
+      "tagline": "开源六轴人形臂做腰部穿戴，ROS2 IK + 零位标定 + 遥操作",
+      "stack": "ROS2 · 舵机总线 · 行星减速 51:1 · STM32F4",
+      "status": "◐",
+      "year": "2026",
+      "scale": "5399 文件 · 1.37GB · 源码2570 · CAD463"
+    },
+    {
+      "id": "rovs",
+      "title": "ROV 水下机器人",
+      "category": "机器人平台",
+      "track": "机器人",
+      "tagline": "5~6 推进器 + PCA9685 舵机，PS2 死区与超时保护",
+      "stack": "Arduino · PS2X · PCA9685 · 推进器电调",
+      "status": "◐",
+      "year": "2026",
+      "scale": "121 文件 · 38MB · CAD115"
+    },
+    {
+      "id": "armxlamp",
+      "title": "机械臂小智灯",
+      "category": "机器人平台",
+      "track": "机器人",
+      "tagline": "桌面六轴臂 + 小智语音灯效，STM32F4 + CAN 教具",
+      "stack": "STM32F4 · CAN · Emm_V5 · FreeRTOS · MQTT",
+      "status": "○",
+      "year": "2025",
+      "scale": "903 文件 · 158MB · 源码149 · CAD84"
+    },
+    {
+      "id": "armtable",
+      "title": "创客机械臂桌子",
+      "category": "机器人平台",
+      "track": "机器人",
+      "tagline": "机械臂嵌入创客桌，丝杠升降 + 桌面集成，教具做成家具",
+      "stack": "STM32F4 · CAN · 丝杠升降 · 铝型材",
+      "status": "○",
+      "year": "2026",
+      "scale": "957 文件 · 215MB · CAD108"
+    },
+    {
+      "id": "satelliterepair",
+      "title": "卫星维修机器人",
+      "category": "机器人平台",
+      "track": "机器人",
+      "tagline": "履带底盘 + 工具箱 + 机械臂，模拟在轨卫星维修抓取",
+      "stack": "Arduino · SolidWorks · 履带底盘 · 机械臂",
+      "status": "●",
+      "year": "2025",
+      "scale": "554 文件 · 397MB · CAD33"
+    },
+    {
+      "id": "hexapodpatrol",
+      "title": "六足校园巡逻机器人",
+      "category": "机器人平台",
+      "track": "机器人",
+      "tagline": "六足越障校园巡逻安防，7 件套申报包",
+      "stack": "六足 · 越障 · 7 件套申报包",
+      "status": "●",
+      "year": "2025",
+      "scale": ""
+    },
+    {
+      "id": "hexapodvideo",
+      "title": "智巡未来六足校园安全守护者",
+      "category": "机器人平台",
+      "track": "机器人",
+      "tagline": "六足巡逻的含视频交付版，5 条目 zip",
+      "stack": "六足 · 视频交付版 · 5 条目 zip",
+      "status": "●",
+      "year": "2025",
+      "scale": ""
+    },
+    {
+      "id": "makertable",
+      "title": "创客桌（铝型材）",
+      "category": "机器人平台",
+      "track": "机器人",
+      "tagline": "20/30 系列铝型材创客桌结构，3 件 CAD",
+      "stack": "SolidWorks · 铝型材 · 3 件 CAD",
+      "status": "○",
+      "year": "2026",
+      "scale": "3 文件 · 0.9MB"
+    },
+    {
+      "id": "exomyrover",
+      "title": "ExoMy ESA 月球车资料包",
+      "category": "机器人平台",
+      "track": "机器人",
+      "tagline": "ESA 六轮摇臂月球车国产化资料包，设计 + BoM + 电气图纸",
+      "stack": "3D 打印 · 摇臂转向架 · 树莓派 · BoM",
+      "status": "○",
+      "year": "2026",
+      "scale": "993 文件 · 800MB"
+    },
+    {
+      "id": "goboardlock",
+      "title": "围棋棋盘静态/动态图形密码智能门锁",
+      "category": "文化创意",
+      "track": "文化创意",
+      "tagline": "8×8 棋盘落子当密码，行列扫描 + 多帧投票防误判",
+      "stack": "ESP32-S3 · 行列扫描 · 磁性棋子 · 丝杠滑台锁",
+      "status": "●",
+      "year": "2026",
+      "scale": "64 文件 · 175MB · CAD45"
+    },
+    {
+      "id": "shortfilm_mask",
+      "title": "AI 科普短片《假面守护：深度伪造的数字防线》",
+      "category": "文化创意",
+      "track": "文化创意",
+      "tagline": "AI 生成 2 分钟抗深度伪造短片，分镜与提示词全留档",
+      "stack": "生成式视频 · AI 绘图 · 剧本工程",
+      "status": "●",
+      "year": "2026",
+      "scale": "5.65MB"
+    },
+    {
+      "id": "shortfilm_fraud",
+      "title": "AI 科普短片《一叶知命：AI 风控守护数字安全》",
+      "category": "文化创意",
+      "track": "文化创意",
+      "tagline": "AI 风控反诈主题科普短片，创意阐述与制作过程留档",
+      "stack": "AI 视频 · 剧本工程 · 反诈主题",
+      "status": "●",
+      "year": "2026",
+      "scale": ""
+    },
+    {
+      "id": "signageplate",
+      "title": "培新教育阳刻标牌",
+      "category": "文化创意",
+      "track": "文化创意",
+      "tagline": "培新教育四字阳刻 + 装配切片打印，STL 单件 258MB",
+      "stack": "SolidWorks · 阳刻 · 3MF 切片",
+      "status": "○",
+      "year": "2025",
+      "scale": "14 文件 · 约 280MB"
+    },
+    {
+      "id": "spicebox",
+      "title": "智能调味料盒",
+      "category": "生活消费",
+      "track": "生活/消费",
+      "tagline": "五路出料：盐/味精/鸡精舵机、酱油醋水泵，按住才出",
+      "stack": "Arduino Uno · 舵机 · 水泵 · 天问语音",
+      "status": "○",
+      "year": "2026",
+      "scale": "29 文件 · 3.4MB · CAD22"
+    },
+    {
+      "id": "tablemat",
+      "title": "智能餐桌加热垫",
+      "category": "生活消费",
+      "track": "生活/消费",
+      "tagline": "K230/K210 分区识别餐盘落位，6 路继电器只热有盘区",
+      "stack": "K230/K210 · 6 路继电器 · 加热膜",
+      "status": "○",
+      "year": "2026",
+      "scale": "30 文件 · 3.7MB"
+    },
+    {
+      "id": "fridgefruit",
+      "title": "冰箱变质水果检测与处理",
+      "category": "生活消费",
+      "track": "生活/消费",
+      "tagline": "深度学习识别冰箱变质水果并联动处理，含查新报告",
+      "stack": "深度学习 · 29 件 CAD · 查新报告",
+      "status": "●",
+      "year": "2025",
+      "scale": "90 条目"
+    },
+    {
+      "id": "drinkmixer",
+      "title": "AI 语音 + 人脸识别定制饮品",
+      "category": "生活消费",
+      "track": "生活/消费",
+      "tagline": "人脸/语音识别偏好自动配比出饮品，双版本交付",
+      "stack": "人脸识别 · 语音识别 · 双版本交付",
+      "status": "●",
+      "year": "2025",
+      "scale": ""
+    },
+    {
+      "id": "deliverylocker",
+      "title": "冷热恒温智能外卖柜",
+      "category": "生活消费",
+      "track": "生活/消费",
+      "tagline": "冷热分区恒温 + 存取控制，双版本交付",
+      "stack": "冷热分区恒温 · 存取控制 · 双版本",
+      "status": "●",
+      "year": "2025",
+      "scale": ""
+    },
+    {
+      "id": "hangerframe",
+      "title": "晾衣架（烘干衣架前身）",
+      "category": "结构件/样机",
+      "track": "结构件/Demo",
+      "tagline": "铝型材晾衣架结构件，后演化为智能烘干衣架",
+      "stack": "SolidWorks · 铝型材 PA20 · 3 件 CAD",
+      "status": "○",
+      "year": "2025",
+      "scale": "3 文件 · 0.5MB"
+    },
+    {
+      "id": "herbalrelief",
+      "title": "中药浮雕结构件",
+      "category": "结构件/样机",
+      "track": "结构件/Demo",
+      "tagline": "编号零件 15/25/35 装配体，无说明文档",
+      "stack": "SolidWorks · 编号零件装配 · 4 件",
+      "status": "○",
+      "year": "2025",
+      "scale": "4 文件 · 0.5MB"
+    },
+    {
+      "id": "boringbox",
+      "title": "无聊的盒子",
+      "category": "结构件/样机",
+      "track": "结构件/Demo",
+      "tagline": "单零件结构 Demo，含 SLDPRT/STEP/STL 三格式",
+      "stack": "SolidWorks · SLDPRT · STEP/STL",
+      "status": "○",
+      "year": "2026",
+      "scale": "3 文件 · 0.2MB"
+    },
+    {
+      "id": "wallclimber",
+      "title": "跨越障碍物爬墙（结构）",
+      "category": "结构件/样机",
+      "track": "结构件/Demo",
+      "tagline": "单零件爬墙机构设想，2 件 SolidWorks 模型",
+      "stack": "SolidWorks · 2 件 · 爬墙机构",
+      "status": "○",
+      "year": "2026",
+      "scale": "2 文件 · 0.1MB"
+    },
+    {
+      "id": "steprgb",
+      "title": "五月花·踩踏亮灯 RGB",
+      "category": "结构件/样机",
+      "track": "结构件/Demo",
+      "tagline": "踩踏触发 RGB + K10 摇杆电机控制，2 段 ino Demo",
+      "stack": "K10(Unihiker) · 步进 · RGB 灯",
+      "status": "○",
+      "year": "2026",
+      "scale": "3 文件 · 0.2MB"
+    }
+  ]
+}

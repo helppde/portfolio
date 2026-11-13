@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>张普朝 · 硬件装置研发与创客教育装备 | 作品集 2026</title>
+<meta name="description" content="张普朝的个人作品集：71 款实体装置、469 份技术文档、1450 条原创选题。硬件装置研发 / 嵌入式整机联调 / 结构与三维建模 / 技术文档与课程交付。">
+<meta name="theme-color" content="#efebe1">
+<meta property="og:title" content="张普朝 · 硬件装置研发与创客教育装备">
+<meta property="og:description" content="把想法做成能跑的整机：71 款装置，从选题、结构、固件、视觉到文档与课程。">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23efebe1'/%3E%3Cpath d='M6 26V6h13l5 5v15z' fill='none' stroke='%2317170f' stroke-width='2'/%3E%3Cpath d='M19 6v5h5' fill='none' stroke='%2317170f' stroke-width='2'/%3E%3Crect x='9' y='17' width='10' height='2' fill='%23e1491f'/%3E%3C/svg%3E">
+<meta name="author" content="张普朝">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "张普朝",
+  "alternateName": "ZHANG PUCHAO",
+  "jobTitle": "硬件装置研发 / 嵌入式系统集成",
+  "description": "K-12 科创装置研发与交付，71 项实体装置，覆盖助老助残、消防应急、农业、环境监测、交通、教育等赛道。",
+  "address": { "@type": "PostalAddress", "addressLocality": "北京", "addressCountry": "CN" },
+  "knowsAbout": ["嵌入式系统", "ESP32", "机器视觉部署", "SolidWorks", "电子电路", "课程设计"],
+  "email": "mailto:hello@example.com"
+}
+</script>
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+
+<div class="paper-grain" aria-hidden="true"></div>
+<a class="skiplink" href="#about">跳到正文</a>
+<div class="grid-field" aria-hidden="true"></div>
+<div class="scroll-progress" aria-hidden="true"><i></i></div>
+
+<!-- 左侧图签栏（技术图纸的装订边） -->
+<aside class="rail" aria-hidden="true">
+  <div class="rail__top">PORTFOLIO&nbsp;/&nbsp;REV.2026-11</div>
+  <nav class="rail__dots" id="rail-nav">
+    <a href="#about" data-r="01"><span>01</span><b>关于</b></a>
+    <a href="#capabilities" data-r="02"><span>02</span><b>能力</b></a>
+    <a href="#work" data-r="03"><span>03</span><b>项目</b></a>
+    <a href="#archive" data-r="04"><span>04</span><b>全景</b></a>
+    <a href="#process" data-r="05"><span>05</span><b>方法</b></a>
+    <a href="#edu" data-r="06"><span>06</span><b>教研</b></a>
+    <a href="#timeline" data-r="07"><span>07</span><b>履历</b></a>
+    <a href="#contact" data-r="08"><span>08</span><b>联系</b></a>
+  </nav>
+  <div class="rail__bottom">SCALE 1:1</div>
+</aside>
+
+<header class="topbar">
+  <a class="brand" href="#top">
+    <span class="brand__mark" aria-hidden="true">
+      <svg viewBox="0 0 24 24" width="18" height="18"><path d="M3 21V3h12l6 6v12z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M15 3v6h6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7 15h8" stroke="currentColor" stroke-width="1.6"/></svg>
+    </span>
+    <span class="brand__txt">
+      <b>张普朝</b>
+      <i>ZHANG PUCHAO</i>
+    </span>
+  </a>
+  <nav class="topnav" id="topnav">
+    <a href="#about">关于</a>
+    <a href="#capabilities">能力</a>
+    <a href="#work">精选项目</a>
+    <a href="#archive">项目全景</a>
+    <a href="#edu">教研</a>
+    <a href="#contact" class="topnav__cta">聊聊合作</a>
+    <a href="index.html" class="topnav__v2" title="打开暗色霓虹版（V2）">V2 · ISSUE 01</a>
+  </nav>
+  <button class="navtoggle" id="navtoggle" aria-label="打开菜单" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<main id="top">
+
+  <!-- ══════════════ HERO ══════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero__grid">
+      <div class="hero__main">
+        <p class="eyebrow"><span class="eyebrow__dot"></span>硬件装置研发 · 创客教育装备 · 北京</p>
+        <h1 class="hero__title">
+          把想法，做成<br>
+          <span class="hero__title-hl">能跑的整机</span>
+        </h1>
+        <p class="hero__lede">
+          我是张普朝。过去几年，我一个人跑完了 <b>71 款实体装置</b>从选题到交付的全链路：
+          结构建模、固件联调、视觉部署、技术文档、课程与教师手册。
+          不是提案里的概念——通电、能动作、被验收，最后还能教给学生。
+        </p>
+        <div class="hero__meta">
+          <span><i>岗位方向</i>教育硬件产品 · 解决方案工程师</span>
+          <span><i>合作方式</i>装置研发 · 课程共建 · 教师培训</span>
+        </div>
+        <div class="hero__actions">
+          <a class="btn btn--solid" href="#work">看精选项目 <span aria-hidden="true">↓</span></a>
+          <a class="btn btn--ghost" href="#contact">聊聊合作</a>
+        </div>
+      </div>
+
+      <div class="hero__side">
+      <aside class="spec" aria-label="工程数据卡">
+        <div class="spec__head">
+          <span class="spec__tag">ENGINEERING&nbsp;DATASHEET</span>
+          <span class="spec__no">NO.<b>001</b></span>
+        </div>
+        <dl class="spec__rows">
+          <div><dt>身份</dt><dd>硬件装置研发 / 独立交付</dd></div>
+          <div><dt>主场</dt><dd>K-12 科创装置 · 教育装备</dd></div>
+          <div><dt>主控</dt><dd>ESP32 · K210 / K230 · Arduino</dd></div>
+          <div><dt>结构</dt><dd>SolidWorks · 3D 打印 · 铝型材</dd></div>
+          <div><dt>软件</dt><dd>Python · FastAPI · Vue · ROS2</dd></div>
+          <div><dt>交付</dt><dd>样机 + 源码 + 文档 + 课程</dd></div>
+        </dl>
+        <div class="spec__foot">
+          <div class="barcode" aria-hidden="true"></div>
+          <span>SPEC REV. 2026-11</span>
+        </div>
+      </aside>
+      <p class="hero__note"><span aria-hidden="true">↳</span> 图 00 — 能力数据卡 · 数据来自 2022–2026 项目归档统计</p>
+      </div>
+    </div>
+
+    <div class="statstrip" id="statstrip" aria-label="关键数据">
+      <!-- JS 注入 -->
+    </div>
+  </section>
+
+  <!-- ══════════════ 01 ABOUT ══════════════ -->
+  <section class="section" id="about">
+    <header class="shead">
+      <span class="shead__no">01</span>
+      <h2 class="shead__title">关于<em>ABOUT</em></h2>
+      <span class="shead__rule" aria-hidden="true"></span>
+      <span class="shead__note">WHO / 我是谁</span>
+    </header>
+
+    <div class="about">
+      <div class="about__side">
+        <figure class="idcard">
+          <div class="idcard__head">
+            <span>IDENTITY CARD</span>
+            <span>NO.<b>001</b></span>
+          </div>
+          <!-- 想放真人照片：把下面这行注释换成注释中的 <img> 即可（建议 3:4 竖图）
+          <div class="idcard__photo"><img src="assets/img/portrait.jpg" alt="张普朝"></div>
+          -->
+          <div class="idcard__mark" aria-hidden="true">
+            <svg viewBox="0 0 240 120" preserveAspectRatio="xMidYMid slice">
+              <defs>
+                <pattern id="p1" width="14" height="14" patternUnits="userSpaceOnUse">
+                  <path d="M14 0H0v14" fill="none" stroke="rgba(23,23,15,.14)" stroke-width=".7"/>
+                </pattern>
+              </defs>
+              <rect width="240" height="120" fill="url(#p1)"/>
+              <path d="M14 86h208" stroke="rgba(23,23,15,.22)"/>
+              <path d="M14 60h150" stroke="rgba(23,23,15,.16)"/>
+              <path d="M186 96h18M195 87v18" stroke="#e1491f" stroke-width="1.2"/>
+              <circle cx="52" cy="34" r="13" fill="none" stroke="rgba(23,23,15,.35)"/>
+              <path d="M28 62c0-13 11-22 24-22s24 9 24 22" fill="none" stroke="rgba(23,23,15,.35)"/>
+            </svg>
+          </div>
+          <figcaption class="idcard__body">
+            <b class="idcard__name">张普朝</b>
+            <span class="idcard__en">ZHANG PUCHAO</span>
+            <dl>
+              <div><dt>坐标</dt><dd>北京</dd></div>
+              <div><dt>赛道</dt><dd>硬件 · 机器人 · 教育科技</dd></div>
+              <div><dt>状态</dt><dd><i class="dot-live"></i>开放机会 / 可承接项目</dd></div>
+            </dl>
+            <div class="barcode idcard__barcode" aria-hidden="true"></div>
+          </figcaption>
+        </figure>
+        <p class="about__caption">图 01 — 身份卡。需要放真人照片时，取消 index.html 中 idcard__photo 那段的注释即可。</p>
+        <figure class="sidefig">
+          <img src="assets/img/hero-1.jpg" alt="装置在装配现场调试" loading="lazy" decoding="async">
+          <figcaption>图 02 — 装置在装配现场</figcaption>
+        </figure>
+      </div>
+
+      <div class="about__body" id="about-body">
+        <p class="lede dropcap">我的工作台上有四样东西：一块开发板、一台 3D 打印机、一份结构装配体，和一堆写了一半的研究报告。多数时候，客户拿着一个模糊的痛点来——"大棚里的病害打药太靠经验""老人洗澡没人扶"——几天后要拿到一台能当场演示的样机。</p>
+        <p>所以我的能力不是某一层的深度，而是<b>把整条链路接通</b>：把需求拆成主控、外设、协议和几周内可交付的形态；画完结构去打印、装配；写完固件在真机上联调，踩完坑把每个坑写进文档；最后把过程整理成论文、日志、图纸和一套能教给学生的课程。</p>
+        <p>这套做法在九个赛道的装置上重复了 71 次，也沉淀成了 1450 条原创选题、820 个课题 SKU 和一门 36 次课的课程体系。我相信判断力比生成力更稀缺——所以我习惯在交出去之前，先把"这个东西到底对不对"验证一遍。</p>
+
+        <div class="pullquote">
+          <p>"能跑起来"和"能被验收"之间，隔着 469 份文档。</p>
+        </div>
+
+        <ul class="chips chips--tools" aria-label="工具栈">
+          <li>ESP32-S3</li><li>ESP32-C3</li><li>Arduino</li><li>行空板 K10</li><li>K210</li><li>K230</li>
+          <li>树莓派 4B</li><li>STM32F4</li><li>SolidWorks</li><li>3D 打印</li><li>铝型材</li>
+          <li>Python</li><li>FastAPI</li><li>Vue</li><li>ROS2</li><li>OpenCV</li><li>LangGraph</li><li>PID / 状态机</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="strengths" id="strengths" aria-label="差异化优势"><!-- JS 注入 --></div>
+  </section>
+
+  <!-- ══════════════ 02 CAPABILITIES ══════════════ -->
+  <section class="section section--tint" id="capabilities">
+    <header class="shead">
+      <span class="shead__no">02</span>
+      <h2 class="shead__title">能力矩阵<em>CAPABILITIES</em></h2>
+      <span class="shead__rule" aria-hidden="true"></span>
+      <span class="shead__note">6 项 · 附证据</span>
+    </header>
+    <p class="section__intro">按"能否一次做对、有无工程规范"打分，不按项目数量。分数不高不低，正好说明我适合什么位置。</p>
+    <div class="cap" id="cap-list"><!-- JS 注入 --></div>
+    <div class="cap__legend">
+      <span>评分口径</span>
+      <ol>
+        <li><b>1</b>听说过</li><li><b>2</b>能改参数跑通</li><li><b>3</b>能独立做出来</li><li><b>4</b>一次做对·有规范</li><li><b>5</b>能定义方案·带人</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ══════════════ 03 SELECTED WORK ══════════════ -->
+  <section class="section" id="work">
+    <header class="shead">
+      <span class="shead__no">03</span>
+      <h2 class="shead__title">精选项目<em>SELECTED&nbsp;WORK</em></h2>
+      <span class="shead__rule" aria-hidden="true"></span>
+      <span class="shead__note">12 个代表案例 · 全库 71 项</span>
+    </header>
+    <p class="section__intro">从消防、环境、农业、交通、机器人、教育、助老等赛道里挑了 12 个最能说明问题的：有整机、有算法、有结构、有课程。点击任意项目查看完整技术档案。</p>
+    <div class="cases" id="case-list"><!-- JS 注入 --></div>
+    <div class="work__more">
+      <p>全库 71 项装置在下面的全景目录里，可按赛道筛选、关键词搜索。</p>
+      <a class="btn btn--ghost" href="#archive">打开项目全景 <span aria-hidden="true">↓</span></a>
+    </div>
+  </section>
+
+  <!-- ══════════════ 04 ARCHIVE ══════════════ -->
+  <section class="section section--ink" id="archive">
+    <header class="shead shead--inv">
+      <span class="shead__no">04</span>
+      <h2 class="shead__title">项目全景<em>ARCHIVE</em></h2>
+      <span class="shead__rule" aria-hidden="true"></span>
+      <span class="shead__note" id="archive-total">71 项</span>
+    </header>
+    <p class="section__intro section__intro--inv">2022–2026 年间完成交付的全部装置归档，按赛道归类。点一行展开技术要点。</p>
+
+    <div class="archive__bar">
+      <div class="archive__chips" id="archive-chips" role="tablist" aria-label="按赛道筛选"></div>
+      <label class="searchbox">
+        <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="1.8"/></svg>
+        <input type="search" id="archive-search" placeholder="搜索项目 / 传感器 / 主控…" aria-label="搜索项目">
+      </label>
+    </div>
+
+    <div class="archive__table" role="table" aria-label="项目全景">
+      <div class="archive__thead" role="row">
+        <span role="columnheader">NO.</span>
+        <span role="columnheader">项目</span>
+        <span role="columnheader">赛道</span>
+        <span role="columnheader">技术栈</span>
+        <span role="columnheader" class="ta-r">年份</span>
+        <span role="columnheader" class="ta-r">完成度</span>
+      </div>
+      <div id="archive-rows"><!-- JS 注入 --></div>
+    </div>
+    <p class="archive__status" id="archive-status" aria-live="polite"></p>
+    <div class="archive__legend">
+      <span>● 整机 + 成套材料</span><span>◐ 样机 / 材料不全</span><span>○ 仅代码或 CAD</span><span>△ 创意阶段</span>
+    </div>
+  </section>
+
+  <!-- ══════════════ 05 PROCESS ══════════════ -->
+  <section class="section" id="process">
+    <header class="shead">
+      <span class="shead__no">05</span>
+      <h2 class="shead__title">工作方法<em>PROCESS</em></h2>
+      <span class="shead__rule" aria-hidden="true"></span>
+      <span class="shead__note">5 个环节 · 一条链路</span>
+    </header>
+    <p class="section__intro">同一套流程在 71 个项目上跑过，所以排产、交付和验收是可预期的。</p>
+    <ol class="process" id="process-list">
+      <li class="process__step">
+        <span class="process__no">01</span>
+        <h3>定义问题</h3>
+        <p class="process__en">DEFINE</p>
+        <p>把模糊的痛点拆成可验证的需求：谁在用、现在怎么做、差在哪、验收标准是什么。同时做赛事/课程侧的适配判断。</p>
+        <ul><li>需求拆解与场景还原</li><li>差异化点与创新点提炼</li><li>交付边界与成本估算</li></ul>
+      </li>
+      <li class="process__step">
+        <span class="process__no">02</span>
+        <h3>方案与结构</h3>
+        <p class="process__en">DESIGN</p>
+        <p>定主控与传感链路，画结构。SolidWorks 建模到可打印、可装配：孔位、干涉、走线、重心都在这步解决。</p>
+        <ul><li>主控 / 传感 / 执行选型</li><li>三维建模与装配验证</li><li>BOM 与采购清单</li></ul>
+      </li>
+      <li class="process__step">
+        <span class="process__no">03</span>
+        <h3>原型与联调</h3>
+        <p class="process__en">BUILD</p>
+        <p>打印、装配、焊线、烧固件。真机联调是最花时间的一步：I2C 掉线、舵机供电不足、PID 积分饱和——都在这里踩。</p>
+        <ul><li>固件与状态机 / PID</li><li>多协议打通（PS2 / UART / WiFi）</li><li>视觉模型部署（K210 / K230）</li></ul>
+      </li>
+      <li class="process__step">
+        <span class="process__no">04</span>
+        <h3>验证与文档</h3>
+        <p class="process__en">VERIFY</p>
+        <p>用清单化的方式验收，而不是"看起来能用"。同时产出研究报告、研究日志、图纸、接线表与测试记录，让交付可复现。</p>
+        <ul><li>验收清单与串口测试脚本</li><li>研究论文 / 日志 / 查新材料</li><li>接线表 · BOM · 测试记录</li></ul>
+      </li>
+      <li class="process__step">
+        <span class="process__no">05</span>
+        <h3>交付与教学</h3>
+        <p class="process__en">DELIVER</p>
+        <p>把装置变成能上课、能答辩的东西：教师手册、操作说明、分层任务、评价量表，以及给老师的培训。</p>
+        <ul><li>教师手册与操作说明</li><li>课时设计与评价量表</li><li>教师培训与答疑</li></ul>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ══════════════ 06 EDUCATION ══════════════ -->
+  <section class="section section--tint" id="edu">
+    <header class="shead">
+      <span class="shead__no">06</span>
+      <h2 class="shead__title">教研资产<em>EDUCATION</em></h2>
+      <span class="shead__rule" aria-hidden="true"></span>
+      <span class="shead__note">课程 · 选题库 · 赛事适配</span>
+    </header>
+    <p class="section__intro">装置只是一半。另一半是把它变成一门课、一套教师能直接用起来的材料，以及一个可以被检索的选题库。</p>
+
+    <div class="edu__grid">
+      <article class="edu__card edu__card--wide">
+        <div class="edu__card-main">
+          <header>
+            <span class="edu__kicker">COURSE 01</span>
+            <h3>跨障碍擦玻璃机器人 · 4 课时</h3>
+          </header>
+          <p>教师手册 185 段、14 张表，含 30 分制评价量表与分层任务设计；配套 189 段操作说明。可直接交付给学校使用。</p>
+          <ul class="edu__tags"><li>教师手册</li><li>操作说明</li><li>评价量表</li><li>分层任务</li></ul>
+        </div>
+        <dl class="edu__facts">
+          <div><dt>课时</dt><dd>4</dd></div>
+          <div><dt>教师手册</dt><dd>185 段</dd></div>
+          <div><dt>表格</dt><dd>14 张</dd></div>
+          <div><dt>评价量表</dt><dd>30 分</dd></div>
+        </dl>
+      </article>
+      <article class="edu__card">
+        <header>
+          <span class="edu__kicker">COURSE 02</span>
+          <h3>水上捡垃圾机器人 · 2 课时</h3>
+        </header>
+        <p>含 9 项下水前安全检查清单，2 课时完成"原理—装配—下水"闭环。</p>
+        <ul class="edu__tags"><li>安全检查清单</li><li>2 课时</li></ul>
+      </article>
+      <article class="edu__card">
+        <header>
+          <span class="edu__kicker">CURRICULUM</span>
+          <h3>创造发明课程体系 · 36 次课</h3>
+        </header>
+        <p>入门 / 进阶 / 挑战三阶段各 12 次，覆盖项目设计、编程、三维建模、电路、装置原理五类知识点。</p>
+        <ul class="edu__tags"><li>三阶段</li><li>36 次课</li><li>师资培养</li></ul>
+      </article>
+    </div>
+
+    <div class="edu__data">
+      <div class="edu__stat"><b>1450</b><span>条原创选题</span></div>
+      <div class="edu__stat"><b>820</b><span>个课题 SKU</span></div>
+      <div class="edu__stat"><b>10</b><span>个赛事 / 活动</span></div>
+      <div class="edu__stat"><b>469</b><span>份技术文档</span></div>
+    </div>
+
+    <div class="events">
+      <h3 class="events__title">赛事适配知识<em>把"知道有比赛"做成"知道要交什么"</em></h3>
+      <table class="events__table">
+        <thead><tr><th>赛事 / 活动</th><th>层级</th><th>我掌握到的颗粒度</th></tr></thead>
+        <tbody>
+          <tr><td>金鹏科技论坛</td><td>区 → 市</td><td>四组别 · 三类参评内容 · 材料 7 件 · 原始性要求 · 时间节点</td></tr>
+          <tr><td>青少年科技创新大赛（青创）</td><td>区 → 市 → 国</td><td>8 学科（含独立人工智能）· 查新报告 · 6 维评审 · 现场考察</td></tr>
+          <tr><td>宋庆龄少年儿童发明奖</td><td>全国</td><td>发明作品申报表全字段实操（2 届）</td></tr>
+          <tr><td>全球发明大会 ICC（中国区）</td><td>国际 / 全国</td><td>参赛声明 + 作品信息表 + 发明日志范式</td></tr>
+          <tr><td>北京"小院士"项目研究展示</td><td>市级</td><td>研究报告 / 日志 / 摘要 / 个人陈述四件套 + 查重模板</td></tr>
+          <tr><td>创客展示 · 校内挑战赛 · 清创</td><td>区 / 校</td><td>申报书、承诺书、团队分工表</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ══════════════ 07 TIMELINE ══════════════ -->
+  <section class="section" id="timeline">
+    <header class="shead">
+      <span class="shead__no">07</span>
+      <h2 class="shead__title">履历<em>TIMELINE</em></h2>
+      <span class="shead__rule" aria-hidden="true"></span>
+      <span class="shead__note">2022 — 2026</span>
+    </header>
+    <ol class="timeline" id="timeline-list"><!-- JS 注入 --></ol>
+  </section>
+
+  <!-- ══════════════ 08 CONTACT ══════════════ -->
+  <section class="section section--contact" id="contact">
+    <header class="shead">
+      <span class="shead__no">08</span>
+      <h2 class="shead__title">联系<em>CONTACT</em></h2>
+      <span class="shead__rule" aria-hidden="true"></span>
+      <span class="shead__note">开放机会 · 可承接项目</span>
+    </header>
+
+    <div class="contact">
+      <div class="contact__main">
+        <h3 class="contact__title">有装置要做，<br>或者正在找这样的一个人？</h3>
+        <p class="contact__lede">求职方向：教育硬件产品经理 / 技术型解决方案工程师（FAE）。<br>合作方向：装置样机研发、嵌入式联调、结构与三维建模、技术文档与答辩材料、课程共建与教师培训。</p>
+        <a class="contact__mail" id="contact-mail" href="mailto:hello@example.com">hello@example.com</a>
+        <p class="contact__hint">邮件通常 1–2 天内回复；需要微信或电话，邮件里说一声。</p>
+        <div class="contact__links">
+          <a href="mailto:hello@example.com">邮箱</a>
+          <span aria-hidden="true">/</span>
+          <span>微信 · 邮件索取</span>
+          <span aria-hidden="true">/</span>
+          <span>北京 · UTC+8</span>
+        </div>
+      </div>
+      <div class="contact__side">
+        <div class="contact__box">
+          <span class="contact__box-k">可承接</span>
+          <ul>
+            <li>装置整机研发（概念 → 样机 → 交付包）</li>
+            <li>嵌入式固件与多传感器联调</li>
+            <li>SolidWorks 建模 / 3D 打印 / 铝型材结构</li>
+            <li>技术文档、研究报告、答辩与展示材料</li>
+            <li>课程设计、教师手册、教师培训</li>
+          </ul>
+        </div>
+        <div class="contact__box contact__box--alt">
+          <span class="contact__box-k">响应</span>
+          <dl>
+            <div><dt>常驻</dt><dd>北京</dd></div>
+            <div><dt>到岗</dt><dd>可谈</dd></div>
+            <div><dt>交付</dt><dd>单台样机 1–3 周</dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__grid">
+    <div>
+      <p class="footer__name">张普朝 <span>ZHANG PUCHAO</span></p>
+      <p class="footer__desc">硬件装置研发 · 创客教育装备 · 北京</p>
+    </div>
+    <div class="footer__meta">
+      <p>本站为纯静态站点，所有数据来自 2022–2026 年项目归档统计；图片为项目实拍。</p>
+      <p>© <span id="year">2026</span> 张普朝 · 保留所有权利</p>
+    </div>
+  </div>
+  <div class="footer__rule" aria-hidden="true"></div>
+  <div class="footer__bottom">
+    <span>PORTFOLIO / REV.2026-11</span>
+    <span>SHEET 1 OF 1 · SCALE 1:1</span>
+    <a href="#top">回到顶部 ↑</a>
+  </div>
+</footer>
+
+<!-- 技术档案弹层 -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+  <div class="modal__scrim" data-close></div>
+  <div class="modal__sheet" role="document">
+    <button class="modal__close" id="modal-close" aria-label="关闭">✕</button>
+    <div class="modal__content" id="modal-content"></div>
+  </div>
+</div>
+
+<noscript><p style="padding:2rem;font-family:monospace">这个站点用了一点点 JavaScript 来渲染项目列表，启用后可以看到完整内容。</p></noscript>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>

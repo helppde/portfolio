@@ -1,0 +1,130 @@
+{
+  "images": {
+    "lingtong": [
+      {
+        "file": "assets/img/lingtong-1.jpg",
+        "w": 1492,
+        "h": 1120,
+        "caption": "推进器与浮筒管路总装",
+        "source": "溺水救援\\图片\\微信图片_20251003125041_1229_113.jpg"
+      },
+      {
+        "file": "assets/img/lingtong-2.jpg",
+        "w": 1492,
+        "h": 1120,
+        "caption": "直线导轨与3D打印滑台装配",
+        "source": "溺水救援\\图片\\微信图片_20251003125035_1221_113.jpg"
+      },
+      {
+        "file": "assets/img/lingtong-3.jpg",
+        "w": 1600,
+        "h": 900,
+        "caption": "主控舱电路与管路总装",
+        "source": "溺水救援\\图片\\微信图片_20251007014411_1344_113.jpg"
+      },
+      {
+        "file": "assets/img/lingtong-4.jpg",
+        "w": 1200,
+        "h": 1600,
+        "caption": "舱盖内侧主控板接线",
+        "source": "溺水救援\\图片\\微信图片_20251003124824_1056_113.jpg"
+      }
+    ],
+    "feijiuyi": [
+      {
+        "file": "assets/img/feijiuyi-1.jpg",
+        "w": 1600,
+        "h": 1200,
+        "caption": "救生衣上的一体化侦察无人机",
+        "source": "飞救衣\\图片\\微信图片_20251018190857_1430_113.jpg"
+      },
+      {
+        "file": "assets/img/feijiuyi-2.jpg",
+        "w": 1600,
+        "h": 1200,
+        "caption": "四轴机身中心框展开状态",
+        "source": "飞救衣\\图片\\微信图片_20251018184858_1409_113.jpg"
+      },
+      {
+        "file": "assets/img/feijiuyi-3.jpg",
+        "w": 1200,
+        "h": 1600,
+        "caption": "地面调试中的整机与救生衣",
+        "source": "飞救衣\\图片\\微信图片_20251018184853_1403_113.jpg"
+      }
+    ],
+    "tenghu": [
+      {
+        "file": "assets/img/tenghu-1.jpg",
+        "w": 1492,
+        "h": 1120,
+        "caption": "履带底盘吸附墙面测试",
+        "source": "藤虎清理\\图片\\微信图片_20260323160215_2923_113.jpg"
+      },
+      {
+        "file": "assets/img/tenghu-2.jpg",
+        "w": 1200,
+        "h": 1600,
+        "caption": "贴壁清洁底盘完成装配",
+        "source": "藤虎清理\\图片\\微信图片_20260323160228_2932_113.jpg"
+      }
+    ],
+    "firepath": [
+      {
+        "file": "assets/img/firepath-1.jpg",
+        "w": 1200,
+        "h": 1600,
+        "caption": "带指示灯的楼体模型总装",
+        "source": "火情路线规划\\火情路线规划\\图片\\微信图片_20261009232746_407_462.jpg"
+      },
+      {
+        "file": "assets/img/firepath-2.jpg",
+        "w": 1200,
+        "h": 1600,
+        "caption": "楼体模型分层亮灯演示",
+        "source": "火情路线规划\\火情路线规划\\图片\\微信图片_20261009232747_408_462.jpg"
+      },
+      {
+        "file": "assets/img/firepath-3.jpg",
+        "w": 1200,
+        "h": 1600,
+        "caption": "主控板与灯带接线",
+        "source": "火情路线规划\\火情路线规划\\图片\\微信图片_20261009232751_411_462.jpg"
+      }
+    ],
+    "swimring": [
+      {
+        "file": "assets/img/swimring-1.jpg",
+        "w": 900,
+        "h": 1600,
+        "caption": "救生圈上的推进与主控模块",
+        "source": "游泳圈救援\\游泳圈救援\\图片\\微信图片_20261007155707_610_69.jpg"
+      },
+      {
+        "file": "assets/img/swimring-2.jpg",
+        "w": 900,
+        "h": 1600,
+        "caption": "主控板与驱动接线",
+        "source": "游泳圈救援\\游泳圈救援\\图片\\微信图片_20261007155707_609_69.jpg"
+      }
+    ],
+    "glassclean": [
+      {
+        "file": "assets/img/glassclean-1.jpg",
+        "w": 1600,
+        "h": 1200,
+        "caption": "负压吸附在墙面的擦玻璃机器人",
+        "source": "跨障碍擦玻璃\\跨障碍物擦玻璃装置\\输出\\配图\\web_6c50f4b3.jpg"
+      }
+    ],
+    "hero": [
+      {
+        "file": "assets/img/hero-1.jpg",
+        "w": 1600,
+        "h": 1200,
+        "caption": "四轮装置室内场地调试",
+        "source": "项目图片\\微信图片_20251120225048_1725_113.jpg"
+      }
+    ]
+  }
+}
